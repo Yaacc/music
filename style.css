@@ -32,7 +32,7 @@ nav li {
 header a {
     color: white;
     text-decoration: none;      /*下划线*/
-    text-transform: uppercase;
+    /* text-transform: uppercase;  大写 */
     margin-top: 40px;
     font-size: 24px;
 }
@@ -91,8 +91,11 @@ header .logo a {
 
 footer {
     background-color: rgb(133, 153, 134);
-    color: whitesmoke;
-    padding: 1px;
+    padding: 10px;
     text-align: center;
 }
 
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
